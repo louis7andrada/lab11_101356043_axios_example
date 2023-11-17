@@ -1,0 +1,56 @@
+.App {
+  font-family: 'Arial', sans-serif;
+}
+
+.App-header {
+  background-color: #4CAF50;
+  padding: 20px;
+  color: white;
+}
+
+.UserList {
+  padding: 20px;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+  margin: 20px auto;
+  width: 80%;
+}
+
+.UserList h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.User {
+  border: 1px solid #ddd;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.User img {
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.User-header {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+.User-details {
+  line-height: 1.5;
+}
+
+.User-details dt {
+  font-weight: bold;
+}
+
+.User-details dd {
+  margin: 0 0 10px 0;
+  padding: 0;
+}
